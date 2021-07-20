@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+/*global style*/
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing:inherit; 
+}
+
+:root{
+    --intro-email-bg: hsl(217, 28%, 15%)
+}
+
+html{
+    font-family: "open sans" sans-serif;
+    font-variant: 400;
+    font-feature-settings: 14px;
+    box-shadow: border-box;
+    scroll-behavior: smooth;
+}
